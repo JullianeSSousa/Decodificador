@@ -1,0 +1,3 @@
+function criptografar(){
+    alert('test')
+}
