@@ -21,32 +21,33 @@
             <div class="comando__entrada">
 
                 <textarea class="text-area"
-                    placeholder="Digite um texto que você deseja criptografar ou descriptografar:" rows="20" cols="50"
-                    id="caixa de texto"> </textarea>
+                    placeholder="Digite um texto que você deseja criptografar ou descriptografar:" rows="10" cols="70"
+                    id="caixa_de_texto"></textarea>
 
             </div>
 
             <p class="texto__alerta">Apenas letras minúsculas e sem acento.</p>
             <div class="botoes">
 
-                <button class="botao__criptografar">Criptografar</button>
-                <button class="botao__descriptografar">Desciptografar</button>
+                <button class="botao__criptografar" onclick="criptografar()">Criptografar</button>
+                <button class="botao__descriptografar" onclick="decriptografar()">Desciptografar</button>
 
             </div>
         </section>
         <div class="mensagem">
 
-            <textarea class="mensagemImagem" name="mensagem__decodificador" id="" rows="20" cols="50"
-                id="caixa de texto"></textarea>
-            <button class="botao__copiar">Copiar</button>
+            <textarea class="mensagemImagem" name="mensagem__decodificador" rows="90" cols="120" id="resultado">
+
+            </textarea>
+            <button class="botao__copiar" onclick="copiar()">Copiar</button>
+
         </div>
 
-
-
     </main>
-
-
     <footer>Desenvolvido por: Julliane Sousa, 2024.</footer>
+
+
+
 
     <script src="./script.js" type="text/javascript"></script>
 </body>
