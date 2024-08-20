@@ -3,14 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&family=Poppins:wght@500&display=swap');
 
 
-
 body{
-    margin: 0%;
-    width: 100%;
-    height: 100%;
+
+    margin: 0;
+    width: 1920px;
+    height: 1080px;
     display: block;
-    background-image: linear-gradient(to right, #7832d3, #6252e5, #496bf1, #2f80fa, #1c93ff);
-    
+    background-color:#46237A;
 
 }
 
@@ -99,7 +98,7 @@ main{
 
 .botao__criptografar{
     cursor: pointer;
-    border: 4px solid #7832d3;
+    border: 2px solid #7832d3;
     font-size: 18px;
     width: 328px;
     height:67px;
@@ -112,7 +111,7 @@ main{
 
 .botao__descriptografar{
     cursor: pointer;
-    border: 4px solid #1c93ff;
+    border: 2x solid #1c93ff;
     font-size: 18px;
     width: 328px;
     height:67px;
@@ -144,7 +143,7 @@ main{
     gap: 20px;
     margin-right: 50%;
     border-radius: 20px;
-    left: 68%;  
+    left: 70%;  
     padding-top: 30px;
     padding-left: 25px;
     
@@ -152,9 +151,10 @@ main{
 }
 
 .botao__copiar{
+    align-items:center;
     flex-wrap: wrap;
     cursor: pointer;
-    border: 4px solid  #1c93ff;
+    border: 2px solid  #1c93ff;
     position: relative;
     display: block;
     font-size: 18px;
@@ -164,7 +164,7 @@ main{
     padding: 24px 0;
     border-radius: 24px;
     background-color: #04192c;
-    margin-left: 83%;
+    margin-left: 97%;
     margin-top: 830px;
     margin-right: 3%;
     
@@ -187,7 +187,12 @@ footer{
 }
 
 
-@media(max-width:1022px){
+@media(max-width:1920px){
+    .corpo{
+        scale: 100%;
+        
+  
+    }
     .container{
         flex-wrap: nowrap;
     }
